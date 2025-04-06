@@ -1,0 +1,40 @@
+/* Common styles */
+.container {
+  height: 300px;
+  margin: 20px;
+  border: 2px solid #333;
+  background-color: #f0f0f0;
+}
+
+.box {
+  background-color: #4caf50;
+  color: white;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+/* Method 1: Flexbox */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Method 2: Grid */
+.grid-container {
+  display: grid;
+  place-items: center;
+}
+
+/* Method 3: Position Absolute + Transform */
+.position-container {
+  position: relative;
+}
+
+.position-container .box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,46 @@
+/* Common styles */
+.container {
+  height: 300px;
+  margin: 20px;
+  border: 2px solid #333;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: black;
+  margin: 10px;
+  position: absolute;
+}
+.circle:nth-child(1) {
+  background-color: black;
+  width: 200px;
+  height: 200px;
+}
+.circle:nth-child(2) {
+  background-color: white;
+  width: 160px;
+  height: 160px;
+}
+
+.circle:nth-child(3) {
+  background-color: black;
+  width: 120px;
+  height: 120px;
+}
+
+.circle:nth-child(4) {
+  background-color: white;
+  width: 80px;
+  height: 80px;
+}
+
+.circle:nth-child(5) {
+  background-color: black;
+  width: 40px;
+  height: 40px;
+}
